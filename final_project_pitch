@@ -1,0 +1,43 @@
+## Final Project, Part 1: Pitch
+> Test and validate 2-3 initial ideas.
+
+In the field of data science, projects are practical. One of the best ways to quickly test ideas is to share your ideas with others 
+and get feedback. Start by reviewing the requirements and [suggested data sets](./datasets.md), then generate a list of 2-3 potential 
+ideas you'd like to pursue. 
+
+**Requirements**
+1. Generate 2-3 different possible problem statements (of at least 250 words each).
+    - State the questions you seek to answer, data set suggestions, and possible challenges.
+2. Create a written pitch for each possibility that can be shared with your instructor and classmates.
+--------------------------------
+
+
+Problem Statement #1: Instacart Orders
+> Instacart is part of the 'Uber' phenomenon where individuals act as contractors to fulfill grocery shopping tasks. By learning more
+about user behavior and buying trends among different types of items and the frequency at which they are ordered, Instacart can not only
+develop new products to increase business but also to help the consumer find what they need faster. They can create quick buttons for
+frequent shoppers (much like Amazon) and they can develop an algorithmic way to deliver related items to frequently purchased items to
+to help increase purchases.
+    > Questions: Which types of products are purchased the most frequently?
+                 Which exact products are purchased most frequently?
+    > Challenges: It is a very large data set and will likely need to be scaled down. Also, because the data sets are all in separate csv
+    files, I will have to do a lot of clean up to get the data in a format that makes sense.
+    > Pitch: Using the Instacart open source data and machine learning algorithms,
+    I will analyze the frequency at which types of products and specific products are purchased over a years time and across 200,000
+    Instacart users. By doing this, I hope to discover which products are purchased the most often and then use my findings to develop
+    new products or algorithms to improve the Instacart shopping experience for their users.
+
+Problem Statement #2: Amazon Pricing Data
+> Millions of people shop on Amazon everyday. Amazon claims to feature competitive pricing and be a good place for vendors to sell their
+products. Amazon's pricing is completely algorithmic and can fluctuate on a day to day, vendor to vendor basis. By examining Amazon's
+pricing algorithm and identifying a correlation between vendor and price, we may be able to help vendors decide if Amazon is the right
+platform to sell their products based on the competition there inherintly is with Amazon Fulfillment Services.
+    > Questions: Is Amazon's pricing algorithm produce fair pricing across vendors who fulfill them?
+                 How does the vendor affect pricing?
+    > Challenges: There isn't a data dictionary to define the data points in this data set. I do not have access to revenue just the pricing
+    data for the products. This won't deliver a clear and definitive answer to my problem but learning how the pricing algorithm operates
+    between vendors can help inform business decisions for smaller companies who look to sell on Amazon.
+    > Pitch: Using the Amazon Pricing data and machine learning algorithms, I will analyze the relationship between Amazon's pricing
+    and the vendor selling and shipping the product being sold. By doing this, I hope to discover whether a vendor selling their products
+    on Amazon are getting priced higher than Amazon fulfilling the order themselves and thus possibly build an argument that Amazon is
+    not the best place for outside vendors to sell their products.
