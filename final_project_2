@@ -1,0 +1,26 @@
+
+Restate your specific problem statement.
+Expand on your initial proposal by including:
+ > Hypothesis/assumptions
+ > Goals and success metrics
+ > Risks or limitations
+ > Articulate the specific data set you've chosen and why.
+
+
+Problem Statement #1: Instacart Orders
+> Instacart is part of the 'Uber' phenomenon where individuals act as contractors to fulfill grocery shopping tasks. By learning more
+about user behavior and buying trends among different types of items and the frequency at which they are ordered, Instacart can not only
+develop new products to increase business but also to help the consumer find what they need faster. They can create quick buttons for
+frequent shoppers (much like Amazon) and they can develop an algorithmic way to deliver related items to frequently purchased items to
+to help increase purchases.
+    > Questions: Which types of products are purchased the most frequently?
+                 Which exact products are purchased most frequently?
+    > Challenges: It is a very large data set and will likely need to be scaled down. Also, because the data sets are all in separate csv
+    files, I will have to do a lot of clean up to get the data in a format that makes sense.
+    > Pitch: Using the Instacart open source data and machine learning algorithms,
+    I will analyze the frequency at which types of products and specific products are purchased over a years time and across 200,000
+    Instacart users. By doing this, I hope to discover which products are purchased the most often and then use my findings to develop
+    new products or algorithms to improve the Instacart shopping experience for their users.
+    
+    reframed in terms of a `target variable`. In our case, `times product is purchased` could be our `y`,
+    and we can spend time determining which features (`X`) help us predict that value.
