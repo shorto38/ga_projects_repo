@@ -1,12 +1,3 @@
-
-Restate your specific problem statement.
-Expand on your initial proposal by including:
- > Hypothesis/assumptions
- > Goals and success metrics
- > Risks or limitations
- > Articulate the specific data set you've chosen and why.
-
-
 Problem Statement #1: Instacart Orders
 > Instacart is part of the 'Uber' phenomenon where individuals act as contractors to fulfill grocery shopping tasks. By learning more
 about user behavior and buying trends among different types of items and the frequency at which they are ordered, Instacart can not only
@@ -15,12 +6,25 @@ frequent shoppers (much like Amazon) and they can develop an algorithmic way to 
 to help increase purchases.
     > Questions: Which types of products are purchased the most frequently?
                  Which exact products are purchased most frequently?
-    > Challenges: It is a very large data set and will likely need to be scaled down. Also, because the data sets are all in separate csv
-    files, I will have to do a lot of clean up to get the data in a format that makes sense.
     > Pitch: Using the Instacart open source data and machine learning algorithms,
     I will analyze the frequency at which types of products and specific products are purchased over a years time and across 200,000
     Instacart users. By doing this, I hope to discover which products are purchased the most often and then use my findings to develop
     new products or algorithms to improve the Instacart shopping experience for their users.
+> Target Variable = `times product is purchased` is `y`and I will spend time determining which features (`X`) help me predict that value.
     
-    reframed in terms of a `target variable`. In our case, `times product is purchased` could be our `y`,
-    and we can spend time determining which features (`X`) help us predict that value.
+---------------
+Part 2:
+> Hypothesis/assumptions: 
+Hypothesis: I believe dinner products will be the most common products purchased.
+Assumptions: Samples were randomly drawn, measure of fitness is appropriate, I did all the math correctly.
+
+> Goals and success metrics:
+Goal: To find out what products (X) are purchased the most frequently; time (y)
+Success metrics: products (X) by times purchased (y) = most frequently purchased products
+
+> Risks or limitations: It would be nice to have additional classification of product type information and to be able to cleanly
+classify by product_name instead of product_id [will likely have to build dictionary].
+
+> Articulate the specific data set you've chosen and why.
+I have chosen the instacart products and orders data sets because they share product_ids that can help em visualize the frequency at which
+specific products are purchased.
