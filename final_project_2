@@ -23,7 +23,8 @@ Goal: To find out what products (X) are purchased the most frequently; time (y)
 Success metrics: products (X) by times purchased (y) = most frequently purchased products
 
 > Risks or limitations: It would be nice to have additional classification of product type information and to be able to cleanly
-classify by product_name instead of product_id [will likely have to build dictionary].
+classify by product_name instead of product_id. Having the data in separate csv files presents a problem where I will have to merge files
+to get at the data I would like to view.
 
 > Articulate the specific data set you've chosen and why.
 I have chosen the instacart products and orders data sets because they share product_ids that can help em visualize the frequency at which
