@@ -6,6 +6,7 @@ frequent shoppers (much like Amazon) and they can develop an algorithmic way to 
 to help increase purchases.
     > Questions: Which types of products are purchased the most frequently?
                  Which exact products are purchased most frequently?
+                 How frequent do users submit orders?
     > Pitch: Using the Instacart open source data and machine learning algorithms,
     I will analyze the frequency at which types of products and specific products are purchased over a years time and across 200,000
     Instacart users. By doing this, I hope to discover which products are purchased the most often and then use my findings to develop
@@ -15,17 +16,18 @@ to help increase purchases.
 ---------------
 Part 2:
 > Hypothesis/assumptions: 
-Hypothesis: Fruit will be the most frequently purchased products.
+Hypothesis: Foods that go bad quickly are the most commonly ordered items.
 Assumptions: Samples were randomly drawn, measure of fitness is appropriate, I did all the math correctly.
 
 > Goals and success metrics:
-Goal: To find out what products (X) are purchased the most frequently; time (y)
+Goal: To predict when [time, y] a user (X) may need to order their frequently purchased products (XX) again.
 Success metrics: products (X) by times purchased (y) = most frequently purchased products
+                 order time (y) by user (X) = order/purchase frequency
 
 > Risks or limitations: It would be nice to have additional classification of product type information and to be able to cleanly
 classify by product_name instead of product_id. Having the data in separate csv files presents a problem where I will have to merge files
 to get at the data I would like to view.
 
 > Articulate the specific data set you've chosen and why.
-I have chosen the instacart products and orders data sets because they share product_ids that can help em visualize the frequency at which
-specific products are purchased.
+I have chosen the instacart products and orders data sets because they share product_ids that can help me visualize the frequency at which
+specific products are purchased and at the rate at which they are purchased.
